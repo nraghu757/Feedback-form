@@ -1,0 +1,1 @@
+document.getElementById("feedbackForm").addEventListener("submit",e=>{e.preventDefault();const n=document.getElementById("name").value;document.getElementById("responseMsg").textContent=`Thank you, ${n}! Your feedback has been submitted successfully.`;e.target.reset();});
